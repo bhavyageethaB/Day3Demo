@@ -1,0 +1,39 @@
+﻿@model Demo.viewModel.EmpDept
+
+@{
+    ViewBag.Title = "EmpDep";
+}
+
+<h2>EmpDep</h2>
+
+<div>
+    <h4>EmpDept</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeptName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeptName)
+        </dd>
+
+    </dl>
+</div>
+
